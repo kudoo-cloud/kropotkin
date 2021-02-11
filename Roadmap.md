@@ -1,3 +1,4 @@
+# High level overview of next steps
 - [ ] Redevelop our [website](https://github.com/kudoo-cloud/website) and [docs](https://github.com/kudoo-cloud/docs)
 - [ ] Upgrade all our [shared-components](https://github.com/kudoo-cloud/shared-components)
 - [ ] Form social channels. Specifically Telegram. Update the existing social channels
@@ -6,9 +7,10 @@
 - [ ] List our token on the ICODrops website
 - [ ] Develop initial UX
 
+## UX work
+- [ ] Research 
+## Development
 
-# UX
-User signs in - > User loads a Token -> User defines Governance policy
 
 ## User signs in
 We can give users the option to sign in using their contract address via Metamask. In future we'd like to use something like Litentry. This is obviously not ideal, but once an Avalanche Identity management tool comes out we'll then embrace that for providing identiry.
