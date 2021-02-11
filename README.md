@@ -1,6 +1,6 @@
 # Kropotkin
 
-`A governance framework for fair and equitable society`
+`A governance framework for a fair and equitable society`
 
 Please read the [Tokenomics](Tokenomics.md) document if you'd like to understand the Tokenomics of the project.
 
