@@ -1,10 +1,13 @@
-- [ ] Redevelop our website and docs
+- [ ] Redevelop our [website](https://github.com/kudoo-cloud/website) and [docs](https://github.com/kudoo-cloud/docs)
+- [ ] Upgrade all our [shared-components](https://github.com/kudoo-cloud/shared-components)
+- [ ] Form social channels. Specifically Telegram. Update the existing social channels
+- [ ] Build Authentication with Metamask
+- [ ] Build the Token contracts on Avalanche and deploy to FUJI
 - [ ] List our token on the ICODrops website
 - [ ] Develop initial UX
 
 
 # UX
-
 User signs in - > User loads a Token -> User defines Governance policy
 
 ## User signs in
@@ -16,7 +19,7 @@ https://github.com/ava-labs/bridge-tokens/blob/main/eth_token_mapping.csv
 
 Anyone can load a Token. If however the Token has already been loaded, then you can Join that Project's governance project. If however someone is squatting on your token, then we need to have an ability to reclaim the token. 
 
-To prevent squatting someone needs to purchase our Token. This token goes into the Governance of Mutual-Aid.
+To prevent squatting someone needs to purchase our Token. This token goes into the Governance of Kropotkin.
 
 ## User defines governance policy
 First phase is to develop the following Voting structures:

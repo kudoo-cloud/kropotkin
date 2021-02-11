@@ -1,6 +1,6 @@
 have a token. The main reason for the token usage is:
 - [ ] Prevent Cybersquatting of the Governance of tokens
-- [ ] Governance of the Mutual Aid project
+- [ ] Governance of the Kropotkin project
 - [ ] Support the ongoing development of the project
 
 It'll be a completely fair launch. No founder or investor allocation.
@@ -27,7 +27,7 @@ We'll distribute
 * 100 000 to developers
 * 50 000 to Liquidity providers on Pangolin
 
-After the first year all distribution will be down to the community. This will be voted on via Quadratic voting on Mutual-Aid 
+After the first year all distribution will be down to the community. This will be voted on via Quadratic voting on Kropotkin 
 
 
 

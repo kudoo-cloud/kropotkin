@@ -1,5 +1,5 @@
 [MIP-01]
-Funding Mutual-Aids Future
+Funding Kropotkin's Future
 # Authors
 @hariseldon
 
