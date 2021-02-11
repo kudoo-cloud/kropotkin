@@ -1,4 +1,4 @@
-So we'll have a token. The main reason for the token usage is:
+have a token. The main reason for the token usage is:
 - [ ] Prevent Cybersquatting of the Governance of tokens
 - [ ] Governance of the Mutual Aid project
 - [ ] Support the ongoing development of the project
