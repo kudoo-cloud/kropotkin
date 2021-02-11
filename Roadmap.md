@@ -1,38 +1,32 @@
-# High level overview of next steps
-- [ ] Redevelop our [website](https://github.com/kudoo-cloud/website) and [docs](https://github.com/kudoo-cloud/docs)
-- [ ] Upgrade all our [shared-components](https://github.com/kudoo-cloud/shared-components)
-- [ ] Form social channels. Specifically Telegram. Update the existing social channels
-- [ ] Build Authentication with Metamask
-- [ ] Build the Token contracts on Avalanche and deploy to FUJI
-- [ ] List our token on the ICODrops website
-- [ ] Develop initial UX
+# Milestones
 
-## UX work
-- [ ] Research 
-## Development
+## Launching the KUDU token
+We will develop the KUDU token with a fixed supply and launch it on the Fuji testnet. After doing some initial testing, we will then launch the token on the Avalanche mainnet. Initial holder will be the Kudoo company, although this will be temporary until we can complete the fair launch of all tokens and hand over on chain governance to the community. Please see [Tokenomics](Tokenomics.md) for more details on the Token distribution.
+
+After the mainnet launch we will also list on Pangolin and provide rewards for Liquidity Providers. This will also be when we launch a few marketing initiatives
+* Upgraded website
+* Telegram channel
+* Discord channel
+* List on ICOdrops.com 
 
 
-## User signs in
-We can give users the option to sign in using their contract address via Metamask. In future we'd like to use something like Litentry. This is obviously not ideal, but once an Avalanche Identity management tool comes out we'll then embrace that for providing identiry.
+## Web application
+The first phase of building the application is to conduct User research. The user research will occur for existing projects operating in DeFi, most notably projects using Snapshot.
 
-## User loads a token
-We will use the following repo in order to get the list of Tokens:
-https://github.com/ava-labs/bridge-tokens/blob/main/eth_token_mapping.csv
+Since most of the governance of these protocols are occurring on Snapshot and driven by the developers the best place to engage with these users are through their projects Discord channels.
 
-Anyone can load a Token. If however the Token has already been loaded, then you can Join that Project's governance project. If however someone is squatting on your token, then we need to have an ability to reclaim the token. 
+Our research will consist initially of questionnaires and online sessions in exchange for distribution of our native token `KUDU`. 
 
-To prevent squatting someone needs to purchase our Token. This token goes into the Governance of Kropotkin.
+After we have compiled the research we will start work on the UX low fidelity prototype.
 
-## User defines governance policy
-First phase is to develop the following Voting structures:
-* Majoritarian
-* Proportional (Preferential)
-* Quadratic
+Once the low fidelity prototype has been designed we will use [Invision](https://www.invisionapp.com/) for the prototype, which we will then submit to a small beta testing group. This group will be rewarded with `KUDU` coins to participate. Once we've compiled the feedback we will continue into designing the high fidelity prototype.
 
-As well as whether voting will be:
-* On chain
-* Off chain
+This release will leverage our existing set of [components](https://github.com/kudoo-cloud/shared-components)
 
-We only support on chain voting for the Avalanche mainnet
+At this stage we will develop the application. All development will occur on Github under a `MIT` license and anyone contributing code will receive `KUDU` coins.
 
+While the application is being built, we will open up our manual governance structure, so that people can already start proposing Kropotkin Improvement Proposals in preparation for the handover of the project to the community.
 
+Infrastructure to host the project will be sourced and once the development of the project is live, the first major project to use Kropotkin will be Kropotkin itself. The first votes will cover
+* Distribution schedule of remaining 80% of token supply
+* Allocation of Tokens
