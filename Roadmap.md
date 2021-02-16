@@ -30,3 +30,4 @@ While the application is being built, we will open up our manual governance stru
 Infrastructure to host the project will be sourced and once the development of the project is live, the first major project to use Kropotkin will be Kropotkin itself. The first votes will cover
 * Distribution schedule of remaining 80% of token supply
 * Allocation of Tokens
+

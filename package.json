@@ -1,0 +1,25 @@
+{
+  "name": "kropotkin",
+  "version": "0.1.0",
+  "description": "A governance token and DeFi playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kudoo-cloud/kropotkin.git"
+  },
+  "keywords": [
+    "Avalanche"
+  ],
+  "author": "Justin Trollip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kudoo-cloud/kropotkin/issues"
+  },
+  "homepage": "https://github.com/kudoo-cloud/kropotkin#readme",
+  "dependencies": {
+    "avalanche": "^3.2.0"
+  }
+}
