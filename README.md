@@ -31,3 +31,13 @@ The data from the governance structures will then be used to discover relationsh
 Eventually the goal is to compare the wants of the voters with the on chain implementation of the votes to compare efficiency and usefulness of differing governance structures in achieving voters goals.
 
 Crypto projects represent the biggest social experiment in decentralized governance the world has ever seen. We intend to mine that data in order to better understand the social structures needed for a more fair and equitable society. 
+
+# Getting started
+First you'll need to make sure you have a [local node running](https://docs.avax.network/build/get-started). 
+
+If running a development node, it's recommended to connect to Fuji
+`./avalanchego --network-id=fuji`
+
+[Grab yourself some tokens](https://faucet.avax-test.network/) while you're at it.
+
+Now we need to create an env file. Populate this file with the information from the node you'd like to interact with.
