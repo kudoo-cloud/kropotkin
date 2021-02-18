@@ -38,6 +38,19 @@ First you'll need to make sure you have a [local node running](https://docs.avax
 If running a development node, it's recommended to connect to Fuji
 `./avalanchego --network-id=fuji`
 
-[Grab yourself some tokens](https://faucet.avax-test.network/) while you're at it.
-
 Now we need to create an env file. Populate this file with the information from the node you'd like to interact with.
+
+//TODO: Complete this section and also add environment variables to `index.ts`
+
+We need to make sure we have a user registered on the KeyStore.
+
+I use the Postman collection to register
+
+I then create an Address and then use the [Avalanche faucet](https://faucet.avax-test.network/) to get some funds!
+
+* Create the following accounts:
+[1. Developers 2. User research 3. Liquidity Providers 4. Vested]
+* Send 100,000 `KROP` to Developers
+* Send 50,000 `KROP` to User Research
+* Send 50,000 `KROP` to Liquidity Providers
+* Send 800,000 to Vested contract
