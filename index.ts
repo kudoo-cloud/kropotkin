@@ -9,6 +9,16 @@ import {
   SECPTransferOutput
 } from "avalanche/dist/apis/avm"
 
+const Web3 = require("web3");
+const ethEnabled = () => {
+  if (window.ethereum) {
+    window.web3 = new Web3(window.ethereum);
+    window.ethereum.enable();
+    return true;
+  }
+  return false;
+}
+
 let myNetworkID = 5; //default is 3, we want to override that for our local network
 let myBlockchainID = "2JVSBoinj9C2J33VntvzYtVJNZdN2NKiwwKjcumHUWEb5DbBrm"; // The X-Chain blockchainID on this network
 let avax = new Avalanche("localhost", 9650, "http", myNetworkID, myBlockchainID);
